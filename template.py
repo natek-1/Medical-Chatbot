@@ -1,16 +1,17 @@
 import os
 from pathlib import Path
 
-project_name = "transformer"
+project_name = "medical_chatbot"
 
 list_of_files = [
 
     f"{project_name}/__init__.py",
     f"{project_name}/helper.py",
     f"{project_name}/prompt.py",
-    "static/style.css"
-    "templates/chat.html"
+    "static/style.css",
+    "templates/chat.html",
     "research/trials.ipynb",
+    ".env",
     "app.py",
     "Dockerfile",
     ".dockerignore",
