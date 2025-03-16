@@ -50,6 +50,8 @@ This is a Retrieval-Augmented Generation (RAG) chatbot designed to provide medic
    AWS_ACCESS_KEY_ID=<your-aws-access-key>
    AWS_SECRET_ACCESS_KEY=<your-aws-secret-key>
    ```
+5. Make sure to download a medical text book you will need and save it to 'data/medical_book.pdf'
+    I personally use The GALE ENCYCLOPEDIA of M EDICINE SECOND EDITION
 
 ### Data Preparation
 1. Process the medical textbook into text chunks.
