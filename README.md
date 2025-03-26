@@ -58,12 +58,18 @@ This is a Retrieval-Augmented Generation (RAG) chatbot designed to provide medic
 2. Generate embeddings using the OpenAI API.
 3. Index the embeddings in Pinecone.
 
+### Indexing
+make sure the run the following to index (You should onlny need to do it once)
+```bash
+python store_index.py
+```
+
 ### Running the Application
 1. Start the server:
    ```bash
    python app.py
    ```
-2. Access the chatbot endpoint at `http://localhost:8000` (or your EC2 instance URL when deployed).
+2. Access the chatbot endpoint at `http://localhost:8080` (or your EC2 instance URL when deployed).
 
 ### Deployment
 1. Build the Docker image:

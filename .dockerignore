@@ -1,0 +1,5 @@
+*.egg-info
+research/
+LICENSE
+store_index.py
+template.py
